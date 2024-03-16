@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "faanos",
+  "identifier": "texture:497-9c2835c6-67e0-463d-9950-48441623469e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "8b91aaca13cd78ed0e3669c2186f2a47",
+  "assetLocator": "textures/faanos.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:627-9c2835c6-67e0-463d-9950-48441623469e",
+    "textureExportConfig:759-9c2835c6-67e0-463d-9950-48441623469e",
+    "textureExportConfig:893-9c2835c6-67e0-463d-9950-48441623469e"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 500,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 500,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "8b91aaca13cd78ed0e3669c2186f2a47",
+      "colorCount": 11717,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.6395357594780147,
+      "pixelsHigh": 500,
+      "pixelsWide": 500
+    }
+  ]
+}

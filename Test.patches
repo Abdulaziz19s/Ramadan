@@ -1,0 +1,79 @@
+{
+  "id": "2af7e87b36e614d3882056fb0b0f3ed26",
+  "revision": "3af7e87b36e614d3882056fb0b0f3ed26",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1642-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "fromPatch": "template_patch_model:1638-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:1640-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1644-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "fromPatch": "template_patch_model:1640-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:1636-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "toPort": "100"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "subpatches": [
+          "producer_patch_model:1636-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+          "template_patch_model:1638-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+          "template_patch_model:1640-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "producer_patch_model",
+        "name": "handTracker0",
+        "identifier": "producer_patch_model:1636-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "object": "handtracker:301-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "position": [
+          908,
+          68
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Hand Finder",
+        "identifier": "template_patch_model:1638-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "position": [
+          380,
+          68
+        ],
+        "templateId": "builtin.handTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Hand Select",
+        "identifier": "template_patch_model:1640-af7e87b3-6e61-4d38-8205-6fb0b0f3ed26",
+        "position": [
+          668,
+          68
+        ],
+        "templateId": "builtin.handPicker"
+      }
+    ]
+  }
+}
